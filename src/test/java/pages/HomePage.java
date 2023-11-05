@@ -28,7 +28,7 @@ public class HomePage extends Utils {
         Thread.sleep(2000);
     }
     public void preencherEmail() throws InterruptedException {
-        driver.findElement(By.id("email")).sendKeys("gabrielribeiroqa@gmail.com");
+        driver.findElement(By.id("email")).sendKeys("teste@test.com");
     }
     public void clickGanharDesconto() throws InterruptedException {
         driver.findElement(By.id("email")).sendKeys(Keys.ENTER);
